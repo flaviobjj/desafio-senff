@@ -1,10 +1,16 @@
 🚀 Projeto Desafio Senff - Testes Automatizados
 
+
+
 Este projeto contém testes automatizados para o site [Demoblaze](https://www.demoblaze.com), Front-End 
 
 E Back-End (API).= https://restful-booker.herokuapp.com/apidoc/index.htm  
 
 Feito com Cypress, Node.js e versionamento no GitHub.  
+
+
+
+
 
 
 📂 Estrutura do Projeto
@@ -21,7 +27,12 @@ desafio-senff/
 └─ README.md
 ---
 
-## 🛠 Tecnologias Utilizadas
+
+
+
+
+
+🛠 Tecnologias Utilizadas
 
 - Node.js - Ambiente de execução JavaScript  
 - Cypress - Testes automatizados E2E e API  
@@ -59,6 +70,9 @@ Adiciona ao carrinho
 Finaliza compra
 
 
+
+
+
 4️⃣ Rodar Testes de Back-End (API)
 npx cypress run --spec "cypress/e2e/backend/backend.cy.js"
 
@@ -69,6 +83,10 @@ Resultados aparecem no terminal
 
 🌐 GitHub
 Repositório: https://github.com/flaviobjj/desafio-senff
+
+
+
+
 
 
 
