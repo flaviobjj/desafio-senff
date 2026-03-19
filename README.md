@@ -1,55 +1,60 @@
-🚀 Projeto Desafio Senff - Testes Automatizados
+Projeto Desafio Senff - Testes Automatizados
 
 
+Front-End para o site [Demoblaze](https://www.demoblaze.com), 
 
-Este projeto contém testes automatizados para o site [Demoblaze](https://www.demoblaze.com), Front-End 
+Back-End (API). para https://restful-booker.herokuapp.com/apidoc/index.htm  
 
-E Back-End (API).= https://restful-booker.herokuapp.com/apidoc/index.htm  
 
 Feito com Cypress, Node.js e versionamento no GitHub.  
 
 
 
+Estrutura do Projeto
+
+desafio-senff/
+├─ cypress/
+│ ├─ e2e/
+│ │ ├─ front/ Testes de Front-End (UI)
+│ │ │ └─ desafio.cy.js
+│ │ ├─ backend/ Testes de API (Back-End)
+│ │ └─ backend.cy.js
+├─ package.json
+├─ package-lock.json
+└─ README.md
 
 
-
-📂 Estrutura do Projeto
-
-
----
-
-
-
-
-
-
-🛠 Tecnologias Utilizadas
+Tecnologias Utilizadas
 
 - Node.js - Ambiente de execução JavaScript  
 - Cypress - Testes automatizados E2E e API  
 - Git & GitHub - Controle de versão e repositório remoto  
 
 
+Como Rodar o Projeto
 
-⚡ Como Rodar o Projeto
 
-1️⃣ Pré-requisitos
+1️. Pré-requisitos
 
 - Node.js  
 - npm   
 - VS Code 
 
-2️⃣ Instalar Dependências
-
-Abra o terminal na pasta do projeto e rode:
-npm install
-Isso instala o Cypress e outras dependências necessárias.
 
 
-3️⃣ Rodar Testes de Front-End 
-npx cypress open
+2️. Instalar Dependências
 
-✅ Passos no Cypress:
+comando via terminal  =  npm install
+
+instala o Cypress e outras dependências necessárias.
+
+
+
+3️. Rodar Testes de Front-End 
+
+comando via terminal  =  npx cypress open
+
+3.1 Passos no Cypress:
 
 Abrir o arquivo cypress/e2e/front/desafio.cy.js
 Executar o teste completo:
@@ -62,26 +67,25 @@ Finaliza compra
 
 
 
+4️.Rodar Testes de Back-End (API)
 
+comando via terminal  =   npx cypress run --spec "cypress/e2e/backend/backend.cy.js"
 
-4️⃣ Rodar Testes de Back-End (API)
-npx cypress run --spec "cypress/e2e/backend/backend.cy.js"
-
-✅ O que acontece:
-Executa testes de endpoints (ex.: cadastro, login)
+4.1 O que acontece:
+Executa testes de endpoints (cadastro, login)
 Valida respostas e status HTTP
 Resultados aparecem no terminal
 
-🌐 GitHub
+
+
+
+
+GitHub
 Repositório: https://github.com/flaviobjj/desafio-senff
 
 
 
 
-
-
-
-
-👤 Autor
+Autor
 Flavio Barbosa
-QA & Automação de Testes
+QA & Automação 
