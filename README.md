@@ -15,16 +15,7 @@ Feito com Cypress, Node.js e versionamento no GitHub.
 
 📂 Estrutura do Projeto
 
-desafio-senff/
-├─ cypress/
-│ ├─ e2e/
-│ │ ├─ front/ # 🖥️ Testes de Front-End (UI)
-│ │ │ └─ desafio.cy.js
-│ │ ├─ backend/ # ⚙️ Testes de API (Back-End)
-│ │ └─ backend.cy.js
-├─ package.json
-├─ package-lock.json
-└─ README.md
+
 ---
 
 
